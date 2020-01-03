@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../defect-tracker/defect-tracker-client/.idea/defect-tracker-client.iml" filepath="$PROJECT_DIR$/../defect-tracker/defect-tracker-client/.idea/defect-tracker-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../natours/.idea/natours.iml" filepath="$PROJECT_DIR$/../natours/.idea/natours.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/natours-front-end.iml" filepath="$PROJECT_DIR$/.idea/natours-front-end.iml" />
+    </modules>
+  </component>
+</project>
