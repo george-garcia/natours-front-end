@@ -335,6 +335,7 @@ body {
 }
 
 .section-header {
+    background-image: linear-gradient(to right, #7dd56f, #28b487);
     position: relative;
     height: 38vw;
     clip-path: polygon(
