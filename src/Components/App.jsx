@@ -5,6 +5,7 @@ import Overview from "./Overview";
 import '../css/style.css';
 import Footer from "./Footer";
 import Tour from "./Tour";
+import Login from "./Login";
 
 const App = () => {
     return (
@@ -13,7 +14,8 @@ const App = () => {
                 <div>
                     <Nav/>
                     <Route path='/' exact component={Overview}/>
-                    <Route path='/tours' exact component={Tour}/>
+                    <Route path='/tours/:tourId' exact component={Tour}/>
+                    <Route path='/login' exact component={Login} />
                     <Footer/>
                 </div>
             </HashRouter>

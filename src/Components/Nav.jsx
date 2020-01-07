@@ -9,7 +9,7 @@ const Nav = () => {
         <div>
             <header className="header">
                 <nav className="nav nav--tours">
-                    <a href="#" className="nav__el">All tours</a>
+                    <Link to={'/'} className="nav__el">All tours</Link>
                     <form className="nav__search">
                         <button className="nav__search-btn">
 

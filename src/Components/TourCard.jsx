@@ -1,7 +1,8 @@
 import React from 'react';
 import svg from "../img/icons.svg";
+import { Link } from "react-router-dom";
 
-const Card = (props) => {
+const TourCard = (props) => {
 
     return (
         <div className="card">
@@ -58,12 +59,12 @@ const Card = (props) => {
                 </p>
                 <p className="card__ratings">
                     <span className="card__footer-value">{props.rating}</span>
-                    <span className="card__footer-text">rating (21)</span>
+                    <span className="card__footer-text">rating ({props.ratingsQuantity})</span>
                 </p>
-                <a href="#" className="btn btn--green btn--small">Details</a>
+                <Link to={`/tours/${props.id}`} className="btn btn--green btn--small">Details</Link>
             </div>
         </div>
     );
 };
 
-export default Card;
+export default TourCard;
